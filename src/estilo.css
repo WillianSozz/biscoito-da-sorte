@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img {
+    width: 300px;
+    height: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.textoFrase{
+    font-style: italic;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.botao{
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 50px;
+    text-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+}
+
+.botao:hover{
+    cursor: pointer;
+    color: brown;
+}
+
